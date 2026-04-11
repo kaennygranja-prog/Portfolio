@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaenny Ribeiro Granja | Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <header class="topbar" id="topbar">
+        <div class="topbar-inner">
+            <a href="#inicio" class="logo">K<span>.</span></a>
+            <nav class="nav-desktop">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#jornada">Jornada</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button class="menu-btn" id="menuBtn" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-xmark"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay">
+        <nav class="mobile-nav">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#jornada">Jornada</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-text-col">
+                <span class="hero-badge">Portfólio Pessoal</span>
+                <h1>Kaenny<br>Ribeiro<br><span class="accent">Granja</span></h1>
+                <p>Profissional comprometida, com olhar acolhedor e postura determinada. Sempre em busca de aprender, crescer e contribuir de forma significativa.</p>
+                <div class="hero-btns">
+                    <a href="#contato" class="btn-warm">Fale comigo</a>
+                    <a href="#sobre" class="btn-ghost">Sobre mim <i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+            <div class="hero-photo-col">
+                <div class="blob-shape"></div>
+                <img src="perfil.jpg" alt="Kaenny Ribeiro Granja" class="hero-img">
+            </div>
+        </div>
+        <!-- Wave Divider -->
+        <svg class="wave-divider" viewBox="0 0 1440 120" preserveAspectRatio="none">
+            <path d="M0,80 C360,140 720,20 1080,80 C1260,110 1380,60 1440,80 L1440,120 L0,120 Z" fill="var(--cream)"/>
+        </svg>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section sobre" id="sobre">
+        <div class="container">
+            <div class="section-intro">
+                <span class="chip"><i class="fas fa-seedling"></i> Quem sou eu</span>
+                <h2>Sobre <em>Mim</em></h2>
+            </div>
+            <div class="about-cards">
+                <div class="about-card" data-anim>
+                    <div class="card-top">
+                        <span class="card-emoji">💡</span>
+                    </div>
+                    <h3>Meu Perfil</h3>
+                    <p>Sou Kaenny Ribeiro Granja, uma profissional que acredita no poder da dedicação e da empatia. Encaro cada desafio com determinação e uma postura colaborativa.</p>
+                </div>
+                <div class="about-card" data-anim>
+                    <div class="card-top">
+                        <span class="card-emoji">🎯</span>
+                    </div>
+                    <h3>Meus Objetivos</h3>
+                    <p>Busco oportunidades que me permitam crescer profissionalmente e contribuir com equipes que valorizam a ética, o respeito e o trabalho em conjunto.</p>
+                </div>
+                <div class="about-card" data-anim>
+                    <div class="card-top">
+                        <span class="card-emoji">🌱</span>
+                    </div>
+                    <h3>Meus Valores</h3>
+                    <p>Empatia, responsabilidade, proatividade e aprendizado contínuo são os pilares que orientam minha vida pessoal e profissional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave -->
+    <div class="wave-section">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path d="M0,40 C480,100 960,0 1440,40 L1440,100 L0,100 Z" fill="var(--brown-dark)"/>
+        </svg>
+    </div>
+
+    <!-- Jornada -->
+    <section class="section jornada" id="jornada">
+        <div class="container">
+            <div class="section-intro light">
+                <span class="chip chip-light"><i class="fas fa-road"></i> Trajetória</span>
+                <h2>Minha <em>Jornada</em></h2>
+            </div>
+            <div class="journey-cards">
+                <div class="journey-card" data-anim>
+                    <div class="journey-num">01</div>
+                    <div class="journey-body">
+                        <span class="journey-tag">Formação</span>
+                        <h3>Educação Acadêmica</h3>
+                        <p>Formação sólida que proporcionou conhecimentos teóricos e práticos essenciais para a atuação no mercado de trabalho.</p>
+                    </div>
+                </div>
+                <div class="journey-card" data-anim>
+                    <div class="journey-num">02</div>
+                    <div class="journey-body">
+                        <span class="journey-tag">Experiência</span>
+                        <h3>Vivência Profissional</h3>
+                        <p>Experiências que desenvolveram competências de organização, comunicação e resolução de problemas no dia a dia profissional.</p>
+                    </div>
+                </div>
+                <div class="journey-card" data-anim>
+                    <div class="journey-num">03</div>
+                    <div class="journey-body">
+                        <span class="journey-tag">Crescimento</span>
+                        <h3>Desenvolvimento Contínuo</h3>
+                        <p>Participação em cursos, capacitações e atividades que promovem a evolução constante das habilidades profissionais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave -->
+    <div class="wave-section wave-up">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+            <path d="M0,60 C480,0 960,100 1440,60 L1440,0 L0,0 Z" fill="var(--brown-dark)"/>
+        </svg>
+    </div>
+
+    <!-- Habilidades -->
+    <section class="section habilidades" id="habilidades">
+        <div class="container">
+            <div class="section-intro">
+                <span class="chip"><i class="fas fa-sparkles"></i> Competências</span>
+                <h2>Minhas <em>Habilidades</em></h2>
+            </div>
+            <div class="skills-ring-grid">
+                <div class="skill-ring-card" data-anim>
+                    <div class="ring-wrap">
+                        <svg class="ring-svg" viewBox="0 0 120 120">
+                            <circle class="ring-bg" cx="60" cy="60" r="52"/>
+                            <circle class="ring-fill" cx="60" cy="60" r="52" data-percent="90"/>
+                        </svg>
+                        <span class="ring-val">90%</span>
+                    </div>
+                    <h3>Comunicação</h3>
+                </div>
+                <div class="skill-ring-card" data-anim>
+                    <div class="ring-wrap">
+                        <svg class="ring-svg" viewBox="0 0 120 120">
+                            <circle class="ring-bg" cx="60" cy="60" r="52"/>
+                            <circle class="ring-fill" cx="60" cy="60" r="52" data-percent="95"/>
+                        </svg>
+                        <span class="ring-val">95%</span>
+                    </div>
+                    <h3>Trabalho em Equipe</h3>
+                </div>
+                <div class="skill-ring-card" data-anim>
+                    <div class="ring-wrap">
+                        <svg class="ring-svg" viewBox="0 0 120 120">
+                            <circle class="ring-bg" cx="60" cy="60" r="52"/>
+                            <circle class="ring-fill" cx="60" cy="60" r="52" data-percent="85"/>
+                        </svg>
+                        <span class="ring-val">85%</span>
+                    </div>
+                    <h3>Organização</h3>
+                </div>
+                <div class="skill-ring-card" data-anim>
+                    <div class="ring-wrap">
+                        <svg class="ring-svg" viewBox="0 0 120 120">
+                            <circle class="ring-bg" cx="60" cy="60" r="52"/>
+                            <circle class="ring-fill" cx="60" cy="60" r="52" data-percent="80"/>
+                        </svg>
+                        <span class="ring-val">80%</span>
+                    </div>
+                    <h3>Informática</h3>
+                </div>
+                <div class="skill-ring-card" data-anim>
+                    <div class="ring-wrap">
+                        <svg class="ring-svg" viewBox="0 0 120 120">
+                            <circle class="ring-bg" cx="60" cy="60" r="52"/>
+                            <circle class="ring-fill" cx="60" cy="60" r="52" data-percent="88"/>
+                        </svg>
+                        <span class="ring-val">88%</span>
+                    </div>
+                    <h3>Proatividade</h3>
+                </div>
+                <div class="skill-ring-card" data-anim>
+                    <div class="ring-wrap">
+                        <svg class="ring-svg" viewBox="0 0 120 120">
+                            <circle class="ring-bg" cx="60" cy="60" r="52"/>
+                            <circle class="ring-fill" cx="60" cy="60" r="52" data-percent="92"/>
+                        </svg>
+                        <span class="ring-val">92%</span>
+                    </div>
+                    <h3>Empatia</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section contato" id="contato">
+        <div class="container">
+            <div class="section-intro">
+                <span class="chip"><i class="fas fa-hand-wave"></i> Vamos conversar</span>
+                <h2>Entre em <em>Contato</em></h2>
+            </div>
+            <p class="contact-desc">Estou aberta a novas oportunidades e conexões. Sinta-se à vontade para entrar em contato!</p>
+            <div class="contact-boxes">
+                <a href="mailto:kaenny08rg@gmail.com" class="contact-box" data-anim>
+                    <div class="cbox-icon"><i class="fas fa-envelope"></i></div>
+                    <span class="cbox-label">E-mail</span>
+                    <span class="cbox-value">kaenny08rg@gmail.com</span>
+                </a>
+                <a href="https://github.com/kaennygranja-prog" target="_blank" rel="noopener noreferrer" class="contact-box" data-anim>
+                    <div class="cbox-icon"><i class="fab fa-github"></i></div>
+                    <span class="cbox-label">GitHub</span>
+                    <span class="cbox-value">kaennygranja-prog</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-flex">
+            <span class="footer-brand">Kaenny Ribeiro Granja</span>
+            <span class="footer-copy">&copy; 2026 — Todos os direitos reservados</span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
