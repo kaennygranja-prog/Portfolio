@@ -894,3 +894,9 @@ img {
     color: var(--brown-dark, #3b2a1a);
 }
 .projetos-sec { background: var(--cream); }
+
+/* React: garantir visibilidade (anima original dependia de IntersectionObserver via JS) */
+.about-card, .journey-card, .skill-ring-card, .contact-box {
+    opacity: 1 !important;
+    transform: none !important;
+}
