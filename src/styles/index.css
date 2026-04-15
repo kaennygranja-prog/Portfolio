@@ -876,3 +876,21 @@ img {
         font-size: 0.8rem;
     }
 }
+
+/* React: tags dos projetos na nova seção */
+.projeto-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.projeto-tag {
+    font-size: 0.72rem;
+    padding: 0.3rem 0.7rem;
+    background: var(--cream);
+    border: 1px solid var(--brown-light, #d9c4a8);
+    border-radius: 100px;
+    color: var(--brown-dark, #3b2a1a);
+}
+.projetos-sec { background: var(--cream); }
